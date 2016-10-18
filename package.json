@@ -1,0 +1,42 @@
+{
+  "name": "react-native-realm-cache-image",
+  "version": "1.0.9",
+  "description": "A cache-image for react-native with using Realm",
+  "main": "index.js",
+  "authors": [
+    {
+      "name": "YunJiang.Fang",
+      "email": "42550564@qq.com"
+    },
+    {
+      "name": "Maciej Pochroń",
+      "email": "maciejpochron@sponk.pl"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "cache-image",
+    "ref",
+    "cache",
+    "webcache",
+    "remobile",
+    "mobile"
+  ],
+  "homepage": "https://github.com/machei/react-native-realm-cache-image",
+  "bugs": {
+    "url": "https://github.com/machei/react-native-realm-cache-image/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/machei/react-native-realm-cache-image.git"
+  },
+  "dependencies": {
+    "react-native-fs": "^2.0.1-rc.2",
+    "react-timer-mixin": "^0.13.3",
+    "realm": "^0.14.3"
+  }
+}
