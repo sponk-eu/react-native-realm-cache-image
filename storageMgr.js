@@ -53,7 +53,10 @@ CacheStorageSchema.schema = {
 class StorageMgr {
 
     constructor() {
-      this.realm = new Realm({schema: [CacheIDSchema, CacheImageSchema, CacheStorageSchema]});
+      this.realm = new Realm({
+        path: 'storageMgr.realm',
+        schema: [CacheIDSchema, CacheImageSchema, CacheStorageSchema]
+      });
       this.storage = 0;
       this.realm_storage = this.realm.objects('CacheStorage');
       fs.mkdir(fs.DocumentDirectoryPath+'/'+CACHE_IMAGE_DIR);

@@ -1,8 +1,32 @@
 {
-  "name": "react-native-realm-cache-image",
-  "version": "1.0.9",
-  "description": "A cache-image for react-native with using Realm",
-  "main": "index.js",
+  "_from": "react-native-realm-cache-image@^1.0.0",
+  "_id": "react-native-realm-cache-image@1.0.9",
+  "_inBundle": false,
+  "_integrity": "sha1-bYB8wOtPi+giFSmLN1UZnrq6LD4=",
+  "_location": "/react-native-realm-cache-image",
+  "_phantomChildren": {
+    "aproba": "1.2.0",
+    "block-stream": "https://registry.npmjs.org/block-stream/-/block-stream-0.0.9.tgz",
+    "console-control-strings": "1.1.0",
+    "wide-align": "1.1.2"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-realm-cache-image@^1.0.0",
+    "name": "react-native-realm-cache-image",
+    "escapedName": "react-native-realm-cache-image",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-realm-cache-image/-/react-native-realm-cache-image-1.0.9.tgz",
+  "_shasum": "6d807cc0eb4f8be82215298b3755199ebaba2c3e",
+  "_spec": "react-native-realm-cache-image@^1.0.0",
+  "_where": "C:\\dev\\MKFF",
   "authors": [
     {
       "name": "YunJiang.Fang",
@@ -13,7 +37,17 @@
       "email": "maciejpochron@sponk.pl"
     }
   ],
-  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/machei/react-native-realm-cache-image/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "react-native-fs": "^2.0.1-rc.2",
+    "react-timer-mixin": "^0.13.3"
+  },
+  "deprecated": false,
+  "description": "A cache-image for react-native with using Realm",
+  "homepage": "https://github.com/machei/react-native-realm-cache-image",
   "keywords": [
     "react-native",
     "react-component",
@@ -26,17 +60,12 @@
     "remobile",
     "mobile"
   ],
-  "homepage": "https://github.com/machei/react-native-realm-cache-image",
-  "bugs": {
-    "url": "https://github.com/machei/react-native-realm-cache-image/issues"
-  },
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-realm-cache-image",
   "repository": {
     "type": "git",
     "url": "git://github.com/machei/react-native-realm-cache-image.git"
   },
-  "dependencies": {
-    "react-native-fs": "^2.0.1-rc.2",
-    "react-timer-mixin": "^0.13.3",
-    "realm": "^0.14.3"
-  }
+  "version": "1.0.9"
 }
